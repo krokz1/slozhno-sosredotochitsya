@@ -9,4 +9,77 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --main-font--main-font: "IBM Plex Mono", monospace;
+  --font-size: 1.125rem;
+  --heading-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --footer-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --heading-title-color: #ffc2e6;
+  --footer-title-color: #ffc2e6;
+  --section-title-color: #353430;
+  --subtitle-color: #353430;
+  --text-menu-color: #353430;
+  --border-color-link: #353430;
+  --text-color: #353430;
+  --border-color: #353430;
+  --accent-color: #ff8dcb;
+  --bg-color: #fff1f7;
+  --bg-image: url(../images/cover-image-light.png);
+  --bg-title-decor: #ff8dcb;
+  --box-shadow: #ff0070;
+  --outline-color: #32312d66;
+
+  --page-width: 1024px;
+  --padding: 20px;
+
+  --transition-duration: 0.2s;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .header__title {
+      color: var(--heading-title-color);
+      text-shadow: 4px 4px 0px var(--accent-color);
+    }
+
+    .footer__title {
+      color: var(--heading-title-color);
+      text-shadow: 2px 2px 0px var(--accent-color);
+    }
+  }
+
+  .page {
+    background-image: var(--bg-image);
+    background-color: #fff1f7;
+  }
+
+  .decor {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root{
+  --main-font--main-font: "IBM Plex Mono", monospace;
+  --font-size: 1.125rem;
+  --heading-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --footer-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --heading-title-color: #ffc2e6;
+  --footer-title-color: #ffc2e6;
+  --section-title-color: #353430;
+  --subtitle-color: #353430;
+  --text-menu-color: #353430;
+  --border-color-link: #353430;
+  --text-color: #353430;
+  --border-color: #353430;
+  --accent-color: #ff8dcb;
+  --bg-color: #fff1f7;
+  --bg-image: url(../images/cover-image-light.png);
+  --bg-title-decor: #ff8dcb;
+  --box-shadow: #ff0070;
+  --outline-color: #32312d66;
+  }
+}
+
+@media (width >=375px) and (width <=767px) {
+  :root {
+    --padding: 10px;
+  }
 }
