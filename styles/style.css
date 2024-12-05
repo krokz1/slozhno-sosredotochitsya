@@ -8,6 +8,7 @@
   font-weight: 400;
   line-height: 1.3;
   margin-inline: auto;
+  background-attachment: fixed
 }
 
 /*Хедер*/
@@ -154,13 +155,6 @@
 }
 /*1 секция фокус*/
 
-.content__section-title {
-  font-weight: 700;
-  font-size: var(--font-size);
-  line-height: 1.29;
-  color: var(--section-title-color, #ff0070);
-}
-
 .title-decor {
   background-color: var(--accent-color, #ff0070);
   color: var(--subtitle-color, #000028);
@@ -230,6 +224,10 @@
 }
 
 .content__section-title {
+  font-weight: 700;
+  font-size: var(--font-size);
+  line-height: 1.29;
+  color: var(--section-title-color, #ff0070);
   grid-column: 1/2;
   grid-row: 1/2;
 }
