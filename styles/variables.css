@@ -20,7 +20,8 @@
   --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-title-decor: #ff0070;
-  --box-shadow: #ff0070;
+  --box-shadow-title: #ff0070;
+  --box-shadow-link: #ff0070;
   --outline-color: #ff0070;
   
   --page-width: 1024px;
