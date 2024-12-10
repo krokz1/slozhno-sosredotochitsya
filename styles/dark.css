@@ -23,7 +23,7 @@
   --bg-title-decor: #ff0070;
   --box-shadow: #ff0070;
   --box-shadow-link: #ff0070;
-  --outline-color: #ff0070;
+  --outline-color: rgba(255, 0, 112, 0.4);
 
   .decor {
     display: block;
@@ -32,10 +32,6 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-font: "IBM Plex Mono", monospace;
-    --font-size: 1.125rem;
-    --heading-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    --footer-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --heading-title-color: #db00ff;
     --footer-title-color: #db00ff;
     --section-title-color: #ff0070;
@@ -50,16 +46,10 @@
     --bg-title-decor: #ff0070;
     --box-shadow: #ff0070;
     --box-shadow-link: #ff0070;
-    --outline-color: #ff0070;
-
-    --page-width: 1024px;
-    --padding: 20px;
-
-    --transition-duration: 0.2s;
-
-    .decor {
-      display: block;
-    }
+    --outline-color: rgba(255, 0, 112, 0.4);
+  }
+  .decor {
+    display: block;
   }
 }
 

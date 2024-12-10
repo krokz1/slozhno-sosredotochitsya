@@ -22,8 +22,8 @@
   --bg-title-decor: #ff0070;
   --box-shadow-title: #ff0070;
   --box-shadow-link: #ff0070;
-  --outline-color: #ff0070;
-  
+  --outline-color: rgba(255, 0, 112, 0.4);
+
   --page-width: 1024px;
   --padding: 20px;
 
