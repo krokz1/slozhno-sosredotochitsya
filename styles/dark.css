@@ -57,7 +57,7 @@
   }
 }
 
-@media (width >=375px) and (width <=767px) {
+@media (width >=320px) and (width <=767px) {
   :root {
     --padding: 10px;
   }
