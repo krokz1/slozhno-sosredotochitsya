@@ -32,6 +32,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --main-font: "IBM Plex Mono", monospace;
+    --font-size: 1.125rem;
+    --heading-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --footer-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --heading-title-color: #db00ff;
     --footer-title-color: #db00ff;
     --section-title-color: #ff0070;
